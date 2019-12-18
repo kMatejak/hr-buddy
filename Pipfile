@@ -9,6 +9,7 @@ verify_ssl = true
 requests = "*"
 psycopg2 = "*"
 psycopg2-binary = "*"
+django = "==3.0.1"
 
 [requires]
 python_version = "3.8"
