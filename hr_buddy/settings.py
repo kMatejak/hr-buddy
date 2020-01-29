@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     # project
     "application",
     "offers",
+    "company",
 ]
 
 MIDDLEWARE = [

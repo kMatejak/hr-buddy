@@ -16,6 +16,16 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from application.views import application
+from company.views import register_view
+from offers.views import add_offer
+
 urlpatterns = [
     path("admin/", admin.site.urls),
+    # company
+    path("company/register/", register_view),
+    # application
+    path("application/", application),
+    # offers
+    path("add_offer/", add_offer),
 ]
