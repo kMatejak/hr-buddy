@@ -4,6 +4,9 @@ student group from [Codecool](https://codecool.com/en/).
   
 [Project wiki](https://github.com/maciejjankowski/learn-to-code/wiki/HR-buddy).
 
+#### App mockups
+[LINK](../spec/mockups.md)
+
 #### For developers
 ```bash
 pipenv install --skip-lock
