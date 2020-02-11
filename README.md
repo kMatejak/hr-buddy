@@ -2,10 +2,10 @@
 This is one of the [PizzaDreams' project](https://github.com/maciejjankowski/learn-to-code/wiki/Pet-projects), 
 student group from [Codecool](https://codecool.com/en/).  
   
-[Project wiki](https://github.com/maciejjankowski/learn-to-code/wiki/HR-buddy).
+[Project wiki](https://github.com/maciejjankowski/learn-to-code/wiki/HR-buddy)
 
 #### App mockups
-[LINK](../spec/mockups.md)
+[LINK](../develop/spec/mockups.md)  
 
 #### For developers
 ```bash
