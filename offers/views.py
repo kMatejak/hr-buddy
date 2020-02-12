@@ -11,4 +11,4 @@ def add_offer(*args, **kwargs):
 
 
 def offer_list(*args, **kwargs):
-    return render(request, "../FrontendComponents/Components/job_list.html", {})
+    return render(request, "templates/job_list.html", {})
