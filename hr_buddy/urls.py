@@ -18,14 +18,15 @@ from django.urls import path
 
 from application.views import application
 from company.views import register_view
-from offers.views import add_offer
+from offers.views import add_offer, offer_list
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     # company
     path("company/register/", register_view),
     # application
-    path("application/", application),
+    path("application/<int:offer_id>", application),
     # offers
     path("add_offer/", add_offer),
+    path("offers_list/<str:company_name>", offer_list),
 ]

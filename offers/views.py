@@ -1,6 +1,14 @@
-from django.http import HttpResponse
-
+from django.http import HttpResponse, request
 
 # Create your views here.
+from django.shortcuts import render
+
+
 def add_offer(*args, **kwargs):
-    return HttpResponse("<h1>add offer site</h1>")
+    print("args: ", *args)
+    print("kwargs: ", **kwargs)
+    return HttpResponse("aaa")
+
+
+def offer_list(*args, **kwargs):
+    return render(request, "strona.html", {})
